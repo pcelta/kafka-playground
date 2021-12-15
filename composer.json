@@ -1,0 +1,19 @@
+{
+    "name": "pcelta/kafka-playground",
+    "description": "A Playground for Kofka's POCs",
+    "type": "metapackage",
+    "autoload": {
+        "psr-4": {
+            "Pcelta\\KafkaPlayground\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Ribeiro Da Silva Neto",
+            "email": "pcelta.ribeiro@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.4"
+    }
+}
